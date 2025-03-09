@@ -1,0 +1,11 @@
+###
+GET http://localhost:4080/
+
+###
+POST http://localhost:4080/
+Content-Type: application/json
+
+{
+  "name": "John Doe",
+  "location": "New York"
+}
